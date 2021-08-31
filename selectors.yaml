@@ -1,0 +1,37 @@
+---
+amazon:
+- key: title
+  selector: span#productTitle
+  child: []
+- key: offerPrice
+  selector: span#priceblock_ourprice
+  child: []
+- key: description
+  selector: div#productDescription
+  child: []
+- key: ratingsMap
+  child:
+  - key: overallCount
+    selector: div#reviewsMedley div.a-row.a-spacing-medium.averageStarRatingNumerical
+      > span
+    child: []
+  - key: 5star
+    selector: div#reviewsMedley tr:nth-child(1) > td.a-text-right.a-nowrap > span.a-size-base
+      > a
+    child: []
+  - key: 4star
+    selector: div#reviewsMedley tr:nth-child(2) > td.a-text-right.a-nowrap > span.a-size-base
+      > a
+    child: []
+  - key: 3star
+    selector: div#reviewsMedley tr:nth-child(3) > td.a-text-right.a-nowrap > span.a-size-base
+      > a
+    child: []
+  - key: 2star
+    selector: div#reviewsMedley tr:nth-child(4) > td.a-text-right.a-nowrap > span.a-size-base
+      > a
+    child: []
+  - key: 1star
+    selector: div#reviewsMedley tr:nth-child(5) > td.a-text-right.a-nowrap > span.a-size-base
+      > a
+    child: []
