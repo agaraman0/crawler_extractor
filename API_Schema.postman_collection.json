@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "80f599e8-068b-4150-977d-09549326fa3c",
-		"name": "CommerceIQ",
+		"name": "API_Schema",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
