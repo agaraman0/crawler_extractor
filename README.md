@@ -217,7 +217,7 @@ Success Response
 	3. execute commands below sequentially
 	
 ```bash
-$ cd /path_to_dir/commerceiq-assignment
+$ cd /path_to_dir
 $ pip install -r requirements.txt
 $ python main.py
 ```
